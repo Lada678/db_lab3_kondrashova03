@@ -1,0 +1,102 @@
+{
+    "accident": [
+        {
+            "accident_id": 1,
+            "accident_date": "2022-08-16",
+            "country_id": 200100,
+            "description_id": "tr",
+            "accident_death": 2
+        },
+        {
+            "accident_id": 2,
+            "accident_date": "2022-06-26",
+            "country_id": 100100,
+            "description_id": "ln",
+            "accident_death": 1
+        },
+        {
+            "accident_id": 3,
+            "accident_date": "2022-07-24",
+            "country_id": 100100,
+            "description_id": "mt",
+            "accident_death": 1
+        },
+        {
+            "accident_id": 4,
+            "accident_date": "2022-07-12",
+            "country_id": 300100,
+            "description_id": "cntr",
+            "accident_death": 2
+        },
+        {
+            "accident_id": 5,
+            "accident_date": "2021-08-26",
+            "country_id": 400100,
+            "description_id": "tr",
+            "accident_death": 3
+        },
+        {
+            "accident_id": 6,
+            "accident_date": "2020-09-17",
+            "country_id": 100100,
+            "description_id": "cntr",
+            "accident_death": 1
+        }
+    ],
+    "country": [
+        {
+            "country_id": 100100,
+            "country_name": "USA"
+        },
+        {
+            "country_id": 200100,
+            "country_name": "Germany"
+        },
+        {
+            "country_id": 300100,
+            "country_name": "China"
+        },
+        {
+            "country_id": 400100,
+            "country_name": "Netherlands"
+        }
+    ],
+    "description": [
+        {
+            "description_id": "tr",
+            "description_name": "crashes into a tree"
+        },
+        {
+            "description_id": "ln",
+            "description_name": "drive into a opposite line"
+        },
+        {
+            "description_id": "mt",
+            "description_name": "hit motocycle"
+        },
+        {
+            "description_id": "cntr",
+            "description_name": "car is out of control"
+        },
+        {
+            "description_id": "ID1",
+            "description_name": "countryName1"
+        },
+        {
+            "description_id": "ID2",
+            "description_name": "countryName2"
+        },
+        {
+            "description_id": "ID3",
+            "description_name": "countryName3"
+        },
+        {
+            "description_id": "ID4",
+            "description_name": "countryName4"
+        },
+        {
+            "description_id": "ID5",
+            "description_name": "countryName5"
+        }
+    ]
+}
