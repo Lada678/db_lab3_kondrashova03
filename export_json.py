@@ -32,8 +32,8 @@ with conn:
 
         data[table] = rows
 
-with open(OUTPUT_FILE, 'w') as outf:
-    json.dump(data, outf, default=str, indent=4)
+with open(OUTPUT_FILE, 'w') as outfile:
+    json.dump(data, outfile, default=str, indent=4)
     
     
     
